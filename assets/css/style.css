@@ -1,8 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family:100, 200, 300, 400, 500, 600, 700=Open+Sans:wght@300&display=swap:100, 200, 300, 400, 500, 600, 700');
 
-/*.navbar-custom {
+/*-----------------------------------------Colours */ 
+
+.navbar-custom {
     background-color: #B4C9BE;
 }
-*/
+
+/*-----------------------------------------Design elements */ 
+
+hr.rounded {
+  border-top: 1px solid #F2B6A9;
+  border-radius: 5px;
+  width: 70%;
+}
+
+/*-----------------------------------------Navbar */ 
+
+.navbar {
+    height: 120px;
+}
+
+.navbar-brand {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+
+}
+
+/*-----------------------------------------Carousel */ 
+
+.carousel-inner > .item {
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-inner > .item {
+    height: 20em;
+  }
+
+  .carousel-inner > .item img {
+    height: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/*-----------------------------------------3 features */
+
+.img-fluid {
+    max-width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
 
 /* change the brand and text color
 .navbar-custom .navbar-brand,
@@ -36,118 +94,4 @@
     color: #333333;
     background-color: rgba(255,255,255,.5);
 }
-
-Attempt 2------------------------------------
-
-.header {
-    margin: 0;
-}
-
-.logo {
-    background: url("../images/kenah-logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    background-size: 200px;
-    margin-left: 0px;
-    margin-top: 30px;
-}
-
-.no gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family:100, 200, 300, 400, 500, 600, 700=Open+Sans:wght@300&display=swap:100, 200, 300, 400, 500, 600, 700');
-
-/*---------------------------------------Image Slider */
-
-/*
-.carousel {
-    position: relative;
-}
-
-.carousel-container {
-    padding: 0;
-    height: 50vh;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-caption {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-}
-
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 15;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;
-}
-
-.carousel-indicators li {
-    box-sizing: content-box;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
-}
-*/
-
-.carousel {
-    height: 500px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 60px;
-    display: block;
-}
- .carousel-caption {
-    z-index: 10;
-}
- .carousel .item {
-    width: 597px;
-    height: 500px;
-    background-color: transparent;
-}
-.carousel-inner > .item > img {
-    position: relative;
-    margin: 0px auto;
-    min-width: auto;
-    height: 500px;
-    max-width: none;
-}
-@media (min-width: 768px) {
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
-    }
-}
