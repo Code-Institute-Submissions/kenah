@@ -14,6 +14,24 @@ hr.rounded {
   width: 70%;
 }
 
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #3C4D5C;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*-----------------------------------------Navbar */ 
 
 .navbar {
@@ -26,7 +44,10 @@ hr.rounded {
     margin: 0;
     padding: 5px;
     position: relative;
+}
 
+.navbar-nav li{
+  border-right: 1px solid #3C4D5C;
 }
 
 /*-----------------------------------------Carousel */ 
@@ -53,6 +74,47 @@ hr.rounded {
 .img-fluid {
     max-width: 100%;
     height: 500px;
+}
+
+/*-----------------------------------------Footer */
+
+footer {
+    background-color: #EAE9EA;
+    min-height: 120px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #EAE9EA;
+    background: #F2B6A9;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #3C4D5C;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/*-----------------------------------------Goodies */
+
+.instructable-pdf {
+    color: #F2B6A9;
+
 }
 
 
