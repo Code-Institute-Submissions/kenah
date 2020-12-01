@@ -2,9 +2,7 @@
 
 /*-----------------------------------------Colours */ 
 
-.navbar-custom {
-    background-color: #B4C9BE;
-}
+
 
 /*-----------------------------------------Design elements */ 
 
@@ -14,8 +12,18 @@ hr.rounded {
   width: 70%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #3C4D5C;
+    text-align: center;
+
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #3C4D5C;
+    text-align: center;
 }
 
 .uppercase {
@@ -33,9 +41,15 @@ h1, h2, h3, h4 {
 }
 
 /*-----------------------------------------Navbar */ 
+.navbar-custom {
+    background-color: #B4C9BE;
+}
 
 .navbar {
     height: 120px;
+    -webkit-box-shadow: 5px 2px 5px 5px rgba(194, 192, 192, 0.3);
+    -moz-box-shadow: 5px 2px 5px 5px rgba(194, 192, 192, 0.3);
+    box-shadow: 5px 2px 5px 5px rgba(194, 192, 192, 0.3);
 }
 
 .navbar-brand {
@@ -47,7 +61,14 @@ h1, h2, h3, h4 {
 }
 
 .navbar-nav li{
-  border-right: 1px solid #3C4D5C;
+  border-right: 1px solid #EAE9EA;
+}
+
+.nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: .2em;
+    color: #3C4D5C;
 }
 
 /*-----------------------------------------Carousel */ 
@@ -68,6 +89,25 @@ h1, h2, h3, h4 {
     width: 100%;
   }
 }
+
+/*-----------------------------------------About */
+
+.btn-custom {
+    background-color: #F2B6A9;
+    color: #3C4D5C;
+}
+
+.about-circle {
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.about-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
 
 /*-----------------------------------------3 features */
 
@@ -117,8 +157,16 @@ footer {
 
 }
 
+/*-----------------------------------------About Gallery */
 
+.pic {
+    padding: 10px;
+    display: block;
+}
 
+.gap {
+    padding: 70px 0;
+}
 
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" integrity="sha512-kJ30H6g4NGhWopgdseRb8wTsyllFUYIx3hiUwmGAkgA9B/JbzUBDQVr2VVlWGde6sdBVOG7oU8AL35ORDuMm8g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <title>Kenah | Handmade Crafts and Workshops</title>
@@ -13,34 +13,140 @@
 
 <!-- Logo and Navigation -->
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-        <div class="container fluid">
+    <nav class="navbar navbar-expand-sm navbar-light navbar-custom sticky-top">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/kenah-logo.svg" class="img-responsive" width="100%" alt="kenahlogo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-3">
+                    <a class="nav-link mx-4" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active mr-3">
+                    <a class="nav-link mx-4" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link mx-4" href="workshops.html">Workshops</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link mx-4" href="goodies.html">Goodies</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- About Us Profile -->
+
+<div class="jumbotron">
+        <div class="about-circle text-center img-responsive mb-4">
+            <img src="assets/images/profile.jpg" class="about-image" alt="">
+        </div>
+    <div>
+        <h3 class="text-center">Our Story</h3>
+        <p class="lead text-center">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p class="text-center">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead text-center">
+        <a class="btn btn-md btn-custom" href="workshops.html" role="button">Book into a workshop</a>
+        </p>
+    </div>
+</div>
+
+
+    <br>
+    <hr class="rounded">
+    <br>
+
+<!-- Image Gallery -->
+
+<section>
+    <div class="gallery gap100">
+        <div class="text-center">
+            <h3 class="mb-4"> Kenah's Gallery </h3>
+        </div>
+        <div class="row ml-3 mr-3">
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+            <div class="col-md-2 pic">
+                <img src="assets/images/experilg.png" class="mw-100" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<hr class="rounded">
+<br>
+
+
+</body>
+<footer class="container-fluid">
+    <div id="footer-details" class="row">
+        <div class="col-sm-4">
             <a class="navbar-brand" href="index.html"><img src="assets/images/kenah-logo.svg" class="img-responsive" width="100%" alt="kenahlogo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="workshops.html">Workshops</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="goodies.html">Goodies</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
-
-<!--Images of Jess and Rox with names over the top when hover they enlarge slightly-->
-
-    </body>
-<footer>
+        <div class="col-sm-4">
+            <h5 class="uppercase general-sub">?</h5>
+        </div>
+        <div class="col-sm-4">
+            <h5 class="uppercase general-sub">Social</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a href="https://www.etsy.com/uk/listing/901910909/pack-of-6-christmas-cards-handmade-with?ref=shop_home_active_1" target="_blank">
+                        <i class="fab fa-etsy" aria-hidden="true"></i>
+                        <span class="sr-only">Etsy</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instgram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </footer>
+
 </html>
