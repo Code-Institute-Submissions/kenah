@@ -82,6 +82,12 @@ p {
     color: #3C4D5C;
 }
 
+.navbar-collapse {
+    background-color:#B4C9BE;
+    margin: 0;
+    padding: 0;
+}
+
 /*-----------------------------------------Carousel */ 
 
 .carousel-inner > .item {
