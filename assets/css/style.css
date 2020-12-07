@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5 {
     font-family: "Montserrat", sans-serif;
     color: #3C4D5C;
     text-align: center;
-
 }
 
 p {
@@ -43,6 +42,18 @@ p {
 /*-----------------------------------------Navbar */ 
 .navbar-custom {
     background-color: #B4C9BE;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #3C4D5C;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+    color: #003333;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #EAE9EA;
 }
 
 .navbar {
