@@ -173,12 +173,12 @@ footer {
     padding-bottom: 15px;
 }
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px;
+    width: 45px;
+    height: 45px;
+    padding: 17px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 19px;
+    line-height: 10px;
     text-align: center;
     color: #EAE9EA;
     background: #F2B6A9;
