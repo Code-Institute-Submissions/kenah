@@ -106,9 +106,6 @@ p {
 }
 }
 
-.navbar .navbar-default .collapse.in {
-    display: block !important;
-}
 
 /*-----------------------------------------Carousel */ 
 
@@ -156,7 +153,7 @@ p {
 }
 
 .features {
-    padding-bottom: 25px;
+    padding: 5px 120px 5px 120px;    
 }
 
 /*-----------------------------------------Footer */
