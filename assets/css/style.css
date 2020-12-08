@@ -69,6 +69,7 @@ p {
     margin: 0;
     padding: 5px;
     position: relative;
+    display: flex;
 }
 
 .navbar-nav li{
@@ -84,8 +85,29 @@ p {
 
 .navbar-collapse {
     background-color:#B4C9BE;
-    margin: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar-expand-sm .navbar-nav .nav-link {
     padding: 0;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0em;
+}
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+.navbar-nav li  {
+  border-right: 0;
+}
+}
+
+.navbar .navbar-default .collapse.in {
+    display: block !important;
 }
 
 /*-----------------------------------------Carousel */ 
@@ -238,6 +260,7 @@ td {
     color: #3C4D5C
 }
 
+/*-----------------------------------------Media Queries */
 
 
 /* change the brand and text color
