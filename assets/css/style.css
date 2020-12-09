@@ -193,6 +193,27 @@ footer {
 
 /*-----------------------------------------Goodies */
 
+.bg-color-contact {
+    background-color: #EAE9EA;
+}
+
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 .instructable-pdf {
     color: #F2B6A9;
 
@@ -290,3 +311,12 @@ td {
 
 }
 
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+}
