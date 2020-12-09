@@ -191,7 +191,7 @@ footer {
     font-size: 13px;
 }
 
-/*-----------------------------------------Goodies */
+/*-----------------------------------------Contact (contact.html) */
 
 .bg-color-contact {
     background-color: #EAE9EA;
@@ -212,6 +212,10 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 30px;
+}
+
+.freebies-heading {
+    line-height: 1.5em;
 }
 
 .instructable-pdf {
