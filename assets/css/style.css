@@ -245,6 +245,10 @@ button[type="submit"] {
   transform: scale(1.5); 
 }
 
+.pic:hover {
+    z-index:10;
+}
+
 /*-----------------------------------------Workshops - Cards */
 
 
