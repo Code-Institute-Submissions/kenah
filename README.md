@@ -1,7 +1,9 @@
 
 ![responsive image](readme-images/responsive.jpg)
 
-# Kenah
+# [Kenah](https://roxjade.github.io/kenah/)
+
+https://roxjade.github.io/kenah/
 
 Kenah is a new independent business startup and personal side-business project started between two teachers, (myself and Jess Vickery) in it's early stages, aiming to sell their handmade / crafted deisgn, here is a link to their business is on [Etsy](https://www.etsy.com/uk/listing/901910909/pack-of-6-christmas-cards-handmade-with?ref=hp_rv-1). 
 There is also a hyperthetical element added to the website, that the business are planning for the future, light-hearted skills workshops aimed at locals within the community that would enjoy learning new craft skills and art-based experiences.
@@ -222,12 +224,13 @@ When validating my code, the html validator found 5 errors and 1 warning. These 
 
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+To deploy my project, I made sure I committed and pushed all of the files. I accessed Github, settings and selected master branch, save. Shortly after my site was published.<br>
+- Chrome - Upon opening the site in my own chrome browser, it functioned just fine, all links were in tact, styling and images. <br>
+- Safari - When opening in Safari, I was not so successful. On my mac laptop, in the safari browser window, I could see that it had dropped the typeface in the table head row and column on the workshops.html page. This appears to be the only fault. In hindsight, I feel I should have set a default sans serif alternative to overule the serif font that has replaced my original font.<br>
+- Safari - When opening in Safari on my older imac, the pink transparent overlay had disappeared from the timetable (as well as the font in the table head row/column). I am unsure why I saw two different results in the same browser and I'm unsure how to resolve it.
+- Ipad & Iphone - When I tested all links and general responsiveness on my iPhone, I was pleasantly suprised. The site felt much more mobile / tablet ready than I had expected. <br>
+One issue I did have on mobile only was with the image: zoom effect within the gallery, the images enlarged too much. I need to set a media query to turn this off for mobile as it's not necessary. 
 
-
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 ## Credits
 - [Medium](https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c) helped me learn to customise my navbar, from this research, I used the navbar-custom class. 
 - [Stack Overflow](stackoverflow.com) is a site I regularly revisted with questions if code wasn't behaving how I wanted. This was a really useful resource!
