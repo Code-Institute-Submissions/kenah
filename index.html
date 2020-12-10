@@ -32,14 +32,13 @@
         ><img
           src="assets/images/kenah-logo.svg"
           class="img-responsive"
-          width="100%"
           alt="kenahlogo"
       /></a>
       <button
         class="navbar-toggler ml-auto"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-toggle="Toggle navigation"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -90,11 +89,7 @@
               alt="craft fair"
             />
             <div class="carousel-caption d-none d-md-block">
-              <a href="about.html">
-              <button type="button" class="btn btn-light btn-lg">
-                About Us
-              </button>
-              </a>
+                <a href="about.html" class="btn btn-light btn-lg" role="button" aria-pressed="true">About Us</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -162,6 +157,9 @@
     <!-- 3 features of our business -->
 
     <section class="features container-fluid">
+    <div class="row">
+        <div class="col-12"><h4 class="mb-5"> Three Features of Kenah</h4></div>
+    </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
           <img src="assets/images/feature2.jpg" class="w-100 rounded" alt="" />
@@ -244,7 +242,6 @@
 
     <hr class="rounded" />
     <br />
-  </body>
 
   <footer class="container-fluid">
     <div class="row" id="footer-details">
@@ -253,7 +250,6 @@
           ><img
             src="assets/images/kenah-logo.svg"
             class="img-responsive"
-            width="100%"
             alt="kenahlogo"
         /></a>
       </div>
@@ -315,4 +311,5 @@
     <script>
       $(".carousel").carousel();
     </script>
+</body>
 </html>
