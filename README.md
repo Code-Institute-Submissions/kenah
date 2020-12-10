@@ -172,18 +172,34 @@ The contact form, it's styling and  media query went very well. Once I completed
 - Safari - The site works successfully in Safari, however the format of the page is slightly different, the appearance of the logo slightly smaller than I like.
 - Chrome - The site works successfully across each page, with no missing links or visible errors.
 - [Am I Responsive](http://ami.responsivedesign.is/#) - The site is responsive across all media sizes. Upon review and reflection, the site could be more mobile ready, some margins/padding/resizing could further imporve mobile UX. 
+- Lighthouse, within the chrome dev tools, gave a report of the site, screenshot below:<br>
+
+![lighthouse report](readme-images/lighthouse.jpg)
 
 ### User Story Testing
 Refering back to the user stories, these needs have almost completely been met;
 
-1. I believe a new visitor would be able to access the information they needed immediatley by accessing 'about us' link in nvabar or scrolling down to jumbotron on main page which has a button like to 'about us'. On the 'About Us' page, a paragraphs explain the journey of the brand with an image of the owners, allowing for a personal connection to form.
-2. A new customer can easily navigate through the simple navbar to find out everything the brand has to offer.
-3. The experience created upon entering the site is balanced, with line breaks to break up sections clearly, plenty of negative / white space for clarity and a calm colour theme with circular shapes and round edges, overall giving a calming expereince.
-4. The Etsy shop could have been more clearly sign-posted, e.g. a shopping icon could be added and floated to the right. However there are 2 Etsy links on the main page and in the footers.
-5. The workshops times and pricing are clear and easy to loacte.
-6. The contact page is clearly stated in the navbar.
+1. As a new visitor to the website, I want it to be informative, with clear navigation where I can easily access information about the brand and feel like I can make a personal connection.
+    - A new visitor would be able to access the 'about us' page link in navbar or scrolling down to jumbotron on main page which has a button like to 'about us'. 
+    - On the 'About Us' page, a paragraphs explain the journey of the brand with an image of the owners, allowing for a personal connection to form.
+2. As a new visitor to the website, I want to be able to find out what the brand is about and has to offer quickly and efficiently.
+    - A new customer can easily navigate through the simple navbar to find out everything the brand has to offer. 
+    - The buttons on each page act as flowing guide through the site, from one-page to another. (index.html button on carousel leads to about.html, which contains a button that leads to workshops.html, which contains a button that leads to contact.html).
+3. As a new or returning visitor to the website, I want a creative, calming and friendly experience.
+    - The experience created upon entering the site is balanced, with line breaks to break up sections clearly, plenty of negative / white space for clarity and a calm colour theme with circular shapes and round edges, overall giving a calming expereince.
+4. As an interested visitor to the website, I want to find out if the site has an online shop and how to access this easily.
+    - The Etsy shop could have been more clearly sign-posted, e.g. a shopping icon could be added and floated to the right linking it. 
+    - There are 2 Etsy links on the main page and in the footer on each page.
+5. As a new visitor to the website, I want to find out what workshops are on offer, how much they cost and how to book them.
+    - The workshop page is clearly stated in the navbar.
+    - The information for workshops and prices are immediatley at the top of the page. 
+    - The timetable is directly beneath.
+6. As a returning visitor, who has already booked in for a workshop, I want to be able to find the workshop timetable and contact page easily.
+    - The contact page is clearly stated in the navbar.
+    - The workshop page clearly contains information on timetable and pricing.
+    - Beneath the timetable page, there is a link to the contact page.
 
-The buttons on each page act as guide through the site, from one-page to another. 
+
 
 ### Validator Testing
 I used [W3C HTML](https://validator.w3.org/) to validate my HTML and [W3C CSS](http://www.css-validator.org/) at the end of the project.
@@ -208,9 +224,8 @@ When validating my code, the html validator found 5 errors and 1 warning. These 
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+
+
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 ## Credits
