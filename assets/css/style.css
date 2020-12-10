@@ -93,6 +93,10 @@ p {
   height: auto;
 }
 
+.carousel-button-link a {
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
   .carousel-inner > .item {
     height: 20em;
@@ -125,7 +129,7 @@ p {
 }
 
 
-/*-----------------------------------------3 features */
+/*-----------------------------------------3 features (index.html)*/
 
 .img-fluid {
     max-width: 100%;
@@ -248,9 +252,6 @@ button[type="submit"] {
 .pic:hover {
     z-index:10;
 }
-
-/*-----------------------------------------Workshops - Cards */
-
 
 /*-----------------------------------------Workshops - Table */
 
